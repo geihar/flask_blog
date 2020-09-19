@@ -44,6 +44,6 @@ if not app.debug:
     app.logger.setLevel(logging.INFO)
     app.logger.info('Blog info')
 
-from app import routes, models, errors
+from app import urls, models, errors
 
 

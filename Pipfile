@@ -10,7 +10,6 @@ flask = "*"
 flask-wtf = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
-install = "*"
 flask-login = "*"
 email-validator = "*"
 
