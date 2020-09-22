@@ -108,11 +108,7 @@ def user(username):
         else None
     )
     return render_template(
-        "user.html",
-        user=user,
-        posts=posts.items,
-        next_url=next_url,
-        prev_url=prev_url
+        "user.html", user=user, posts=posts.items, next_url=next_url, prev_url=prev_url
     )
 
 
